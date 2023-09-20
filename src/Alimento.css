@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Donegal+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  .CentroXY{
+    height: 100vh;
+    background-color: #ebe5ce;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.esperandomenudorafael{
+    background-color: #8D1042;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  
+  }
+.esperandomenudorafael2{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+  
+  }
+
+  h6{
+    text-align: center ;
+    color: #8D1042;
+    font-size: 36px;
+    font-family: 'Donegal One', sans-serif;
+  }
+
+
+
+  input[type="file"] {
+    display: none;
+}
+label {
+    padding: 20px 10px;
+    width: 375px;
+    background-color: #640F3D;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Didact Gothic'; 
+    border-radius: 10px;
+    
+   
+}
+
+.p-1{
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.Icon{
+  width: 30px;
+  height: 30px;
+}
+
